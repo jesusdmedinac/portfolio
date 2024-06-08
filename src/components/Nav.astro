@@ -27,7 +27,11 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 ];
 
 ---
-
+<a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
+  Today 9PM - 
+  Kotlin Multiplatform and Mobile Development Live on Twitch
+  <Icon icon="twitch-logo" color="#FFF" size="1.6em" />
+</a>
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
@@ -168,6 +172,14 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 		font-weight: 500;
 		margin-bottom: 3.5rem;
 	}
+
+  .menu-add {
+    background-color: #7611a6;
+    padding: 8px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+  }
 
 	.menu-header {
 		display: flex;
