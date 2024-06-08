@@ -11,6 +11,7 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
+import BlogPreview from '../components/BlogPreview.astro';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
@@ -20,6 +21,21 @@ import Skills from '../components/Skills.astro';
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
+
+const blogs = [
+  {
+    href: "https://jesusdmedinac.notion.site/Programaci-n-desde-0-Kotlin-para-no-programadores-BLOG-27ca46fd7a314368b7c21cd4412c6c20",
+    title: "Programación desde 0 - Kotlin para no programadores",
+    img: "/assets/programacion-desde-0.png",
+    img_alt: "Programación desde 0 Banner"
+  },
+  {
+    href: "https://blog.jesusdmedinac.com/",
+    title: "JesusDMedinaC",
+    img: "/assets/JesusDMedinaC-Banner.png",
+    img_alt: "JesusDMedinaC Banner"
+  },
+]
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/basics/astro-components/
@@ -53,6 +69,58 @@ const projects = (await getCollection('work'))
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
+      <section class="section with-background with-cta">
+        <header class="section-header stack gap-2 lg:gap-4">
+					<h3>Kotlin Multiplatform Masterclass</h3>
+          <p>
+            Learn how to use Kotlin Multiplatform for Android, iOS, Desktop, Web and Backend, taking
+            advantage of Kotlin features.
+          </p>
+				</header>
+
+        <div class="cta">
+					<CallToAction href="https://kmp-master-class.pages.dev/">
+						Take the Masterclass
+						<Icon icon="arrow-right" size="1.2em" />
+					</CallToAction>
+				</div>
+      </section>
+
+      <section class="section with-background with-cta">
+        <header class="section-header stack gap-2 lg:gap-4">
+					<h3>Kotlin Multiplatform and Mobile Development Lives</h3>
+          <p>
+            Join us every saturday at 9PM (GMT-7)
+          </p>
+				</header>
+
+        <div class="cta">
+					<CallToAction href="https://www.twitch.tv/jesusdmedinac">
+						Join the lives
+						<Icon icon="twitch-logo" size="1.2em" />
+					</CallToAction>
+				</div>
+      </section>
+
+      <section class="section with-background with-cta">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Blogs</h3>
+					<p>Check my free and pay-to-read Blog's articles</p>
+				</header>
+
+				<div class="gallery">
+					<Grid variant="offset">
+						{
+							blogs.map((blog) => (
+								<li>
+									<BlogPreview blog={blog} />
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+			</section>
+
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Work experience</h3>
