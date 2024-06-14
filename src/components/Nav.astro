@@ -25,13 +25,17 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
   { label: 'Discord', href: 'https://discord.gg/v5jv8k5b', icon: 'discord-logo'},
   { label: 'Twitch', href: 'https://www.twitch.tv/jesusdmedinac', icon: 'twitch-logo'},
 ];
-
+const isSaturday = new Date().getDay() === 6;
 ---
-<a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
-  Today 9PM - 
-  Kotlin Multiplatform and Mobile Development Live on Twitch
-  <Icon icon="twitch-logo" color="#FFF" size="1.6em" />
-</a>
+{
+  isSaturday 
+  ? <a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
+      Today 9PM - 
+      Kotlin Multiplatform and Mobile Development Live on Twitch
+      <Icon icon="twitch-logo" color="#FFF" size="1.6em" />
+    </a>
+  : <div></div>
+}
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
