@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import type { iconPaths } from './IconPaths';
+import { toCodes } from 'astro:i18n';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -25,8 +26,47 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
   { label: 'Discord', href: 'https://discord.gg/v5jv8k5b', icon: 'discord-logo'},
   { label: 'Twitch', href: 'https://www.twitch.tv/jesusdmedinac', icon: 'twitch-logo'},
 ];
-const isSaturday = new Date().getDay() === 6;
+const todayDate = new Date((new Date().toLocaleString('en-US', { timeZone: 'America/Tijuana' })));
+const isSaturday = todayDate.getDay() === 6;
+// List of dates for the KMP Masterclass: July 6, 13, 20 and 27 and August 3
+const kmpDates = [
+  new Date(2024, 6, 6, 21, 0, 0),
+  new Date(2024, 6, 13, 21, 0, 0),
+  new Date(2024, 6, 20, 21, 0, 0),
+  new Date(2024, 6, 27, 21, 0, 0),
+  new Date(2024, 7, 3, 21, 0, 0),
+];
+// Function to format the date and time in Tijuana time
+const formatDateAndTime = (date: Date) => {
+  // Create a new Date object in Tijuana time zone
+  const tijuanaDate = new Date(date.toLocaleString('en-US', { timeZone: 'America/Tijuana' }));
+
+  // Get the day, month, and time components
+  const day = tijuanaDate.getDate();
+  const month = tijuanaDate.toLocaleString('es-US', { month: 'long' });
+  const hours = tijuanaDate.getHours();
+
+  // Format the time as "9:00 pm"
+  const formattedTime = `${hours - 12} ${hours >= 12 ? 'pm' : 'am'}`;
+
+  // Return the formatted date and time
+  return `${day} de ${month} a las ${formattedTime}`;
+};
+const kmpDatesFiltered = kmpDates
+  .filter((date) => {
+    return new Date(2024, 6, 13) <= date;
+  })
+const isKMPMasterclassActive = kmpDatesFiltered.length > 0;
 ---
+{
+  isKMPMasterclassActive 
+  ? <a class="menu-add" href="https://kmp.jesusdmedinac.com/">
+      {formatDateAndTime(kmpDatesFiltered[0])} - 
+      KMP Masterclass - Regístrate
+      <Icon icon="link" color="#FFF" size="1.6em" />
+    </a>
+  : <div></div>
+}
 {
   isSaturday 
   ? <a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
@@ -178,6 +218,8 @@ const isSaturday = new Date().getDay() === 6;
 	}
 
   .menu-add {
+    display: block;
+    position: relative;
     background-color: #7611a6;
     padding: 8px;
     color: #FFF;
