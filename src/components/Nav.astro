@@ -26,8 +26,8 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
   { label: 'Discord', href: 'https://discord.gg/v5jv8k5b', icon: 'discord-logo'},
   { label: 'Twitch', href: 'https://www.twitch.tv/jesusdmedinac', icon: 'twitch-logo'},
 ];
-const todayDate = new Date((new Date().toLocaleString('en-US', { timeZone: 'America/Tijuana' })));
-const isSaturday = todayDate.getDay() === 6;
+const todayDate = new Date(Date.now());
+const isSaturday = true // todayDate.getDay() === 6;
 // List of dates for the KMP Masterclass: July 6, 13, 20 and 27 and August 3
 const kmpDates = [
   new Date(2024, 6, 6, 21, 0, 0),
@@ -47,14 +47,14 @@ const formatDateAndTime = (date: Date) => {
   const hours = tijuanaDate.getHours();
 
   // Format the time as "9:00 pm"
-  const formattedTime = `${hours - 12} ${hours >= 12 ? 'pm' : 'am'}`;
+  const formattedTime = `${(hours - 12) + 7} ${hours >= 12 ? 'pm' : 'am'}`;
 
   // Return the formatted date and time
   return `${day} de ${month} a las ${formattedTime}`;
 };
 const kmpDatesFiltered = kmpDates
   .filter((date) => {
-    return new Date(2024, 6, 13) <= date;
+    return todayDate.toLocaleString('en-US', { timeZone: 'America/Tijuana' }) <= date.toLocaleString('en-US', { timeZone: 'America/Tijuana' });
   })
 const isKMPMasterclassActive = kmpDatesFiltered.length > 0;
 ---
