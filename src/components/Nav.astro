@@ -27,7 +27,7 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
   { label: 'Twitch', href: 'https://www.twitch.tv/jesusdmedinac', icon: 'twitch-logo'},
 ];
 const todayDate = new Date(Date.now());
-const isSaturday = false // todayDate.getDay() === 6;
+const isSaturday = true // todayDate.getDay() === 6;
 // List of dates for the KMP Masterclass: July 6, 13, 20 and 27 and August 3
 const kmpDates = [
   new Date(2024, 6, 6, 21, 0, 0),
@@ -70,7 +70,6 @@ const isKMPMasterclassActive = kmpDatesFiltered.length > 0;
 {
   isSaturday 
   ? <a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
-      Today 9PM - 
       Kotlin Multiplatform and Mobile Development Live on Twitch
       <Icon icon="twitch-logo" color="#FFF" size="1.6em" />
     </a>
