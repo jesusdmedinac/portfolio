@@ -1,13 +1,15 @@
 ---
 import '../styles/global.css';
 
+const { generator, site } = Astro;
+
 interface Props {
 	title?: string | undefined;
 	description?: string | undefined;
 }
 
 const {
-	title = 'JesusDMedinaC: Kotlin Multiplatform Engineer',
+	title = 'JesusDMedinaC',
 	description = 'Kotlin Multiplatform Engineer',
 } = Astro.props;
 ---
@@ -15,8 +17,16 @@ const {
 <meta charset="UTF-8" />
 <meta name="description" property="og:description" content={description} />
 <meta name="viewport" content="width=device-width" />
-<meta name="generator" content={Astro.generator} />
+<meta name="generator" content={generator} />
 <title>{title}</title>
+
+<!-- social media -->
+<meta property="og:title" content="JesusDMedinaC" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={"/assets/portrait.jpg"} />
+<meta property="og:url" content={site} />
+<meta name="twitter:card" content="summary_large_image" />
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
