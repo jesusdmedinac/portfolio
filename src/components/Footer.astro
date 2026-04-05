@@ -1,5 +1,7 @@
 ---
 import Icon from './Icon.astro';
+import { socialLinks } from '../config';
+
 const currentYear = new Date().getFullYear();
 ---
 
@@ -12,16 +14,11 @@ const currentYear = new Date().getFullYear();
 		<p>&copy; {currentYear} JesusDMedinaC</p>
 	</div>
 	<p class="socials">
-    <a href="https://www.youtube.com/@jesusdmedinac/">YouTube</a>
-    <a href="https://www.linkedin.com/in/jesusdmedinac/">Linkedin</a>
-    <a href="https://www.tiktok.com/@jesusdmedinac">TikTok</a>
-    <a href="https://www.facebook.com/jesusdmedinac">Facebook</a>
-    <a href="https://www.instagram.com/jesusdmedinac/">Instagram</a>
-    <a href="https://twitter.com/JesusDMedinaC">X</a>
-    <a href="https://github.com/jesusdmedinac">Github</a>
-    <a href="https://blog.jesusdmedinac.com">Medium</a>
-    <a href="https://discord.gg/CMP4dA7P">Discord</a>
-    <a href="https://www.twitch.tv/jesusdmedinac">Twitch</a>
+    {
+      socialLinks.map(({ href, label }) => (
+        <a href={href}>{label}</a>
+      ))
+    }
 	</p>
 </footer>
 <style>

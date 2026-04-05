@@ -1,8 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
-import type { iconPaths } from './IconPaths';
-import { toCodes } from 'astro:i18n';
+import { socialLinks, kmpConfiguration, kmpDatesFiltered } from '../config';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
@@ -14,28 +13,10 @@ const textLinks: { label: string; href: string }[] = [
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
-const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'YouTube', href: 'https://www.youtube.com/@jesusdmedinac/', icon: 'youtube-logo'},
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/jesusdmedinac/', icon: 'linkedin-logo'},
-  { label: 'TikTok', href: 'https://www.tiktok.com/@jesusdmedinac', icon: 'tiktok-logo'},
-  { label: 'Facebook', href: 'https://www.facebook.com/jesusdmedinac', icon: 'facebook-logo'},
-  { label: 'Instagram', href: 'https://www.instagram.com/jesusdmedinac', icon: 'instagram-logo'},
-  { label: 'X', href: 'https://x.com/JesusDMedinaC', icon: 'x-logo'},
-  { label: 'Github', href: 'https://github.com/jesusdmedinac', icon: 'github-logo'},
-  { label: 'Medium', href: 'https://blog.jesusdmedinac.com', icon: 'medium-logo'},
-  { label: 'Discord', href: 'https://discord.gg/v5jv8k5b', icon: 'discord-logo'},
-  { label: 'Twitch', href: 'https://www.twitch.tv/jesusdmedinac', icon: 'twitch-logo'},
-];
-const todayDate = new Date(Date.now());
-const isSaturday = true // todayDate.getDay() === 6;
-// List of dates for the KMP Masterclass: July 6, 13, 20 and 27 and August 3
-const kmpDates = [
-  new Date(2024, 6, 6, 21, 0, 0),
-  new Date(2024, 6, 13, 21, 0, 0),
-  new Date(2024, 6, 20, 21, 0, 0),
-  new Date(2024, 6, 27, 21, 0, 0),
-  new Date(2024, 7, 3, 21, 0, 0),
-];
+const iconLinks = socialLinks;
+
+const isLiveStreamActive = kmpConfiguration.isLiveStreamEnabled;
+
 // Function to format the date and time in Tijuana time
 const formatDateAndTime = (date: Date) => {
   // Create a new Date object in Tijuana time zone
@@ -52,11 +33,8 @@ const formatDateAndTime = (date: Date) => {
   // Return the formatted date and time
   return `${day} de ${month} a las ${formattedTime}`;
 };
-const kmpDatesFiltered = kmpDates
-  .filter((date) => {
-    return todayDate.toLocaleString('en-US', { timeZone: 'America/Tijuana' }) <= date.toLocaleString('en-US', { timeZone: 'America/Tijuana' });
-  })
-const isKMPMasterclassActive = kmpDatesFiltered.length > 0;
+
+const isKMPMasterclassActive = kmpConfiguration.isMasterclassEnabled;
 ---
 {
   isKMPMasterclassActive 
@@ -68,7 +46,7 @@ const isKMPMasterclassActive = kmpDatesFiltered.length > 0;
   : <div></div>
 }
 {
-  isSaturday 
+  isLiveStreamActive 
   ? <a class="menu-add" href="https://www.twitch.tv/jesusdmedinac">
       Kotlin Multiplatform and Mobile Development Live on Twitch
       <Icon icon="twitch-logo" color="#FFF" size="1.6em" />

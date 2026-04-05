@@ -1,0 +1,369 @@
+{
+  "basics": {
+    "name": "Jesús Daniel Medina Cruz",
+    "label": "Senior Android Engineer | Technical Leader",
+    "image": "/me_avatar.jpg",
+    "email": "jesus.daniel.medina.cruz@gmail.com",
+    "phone": "+14704061747",
+    "url": "https://jesusdmedinac.com",
+    "summary": "Senior Android Engineer with 10+ years of experience architecting high-performance mobile applications and leading technical direction at scale. Deep expertise in Android SDK internals, multithreading, and memory management, complemented by advanced Kotlin Multiplatform (KMP) capabilities. Proven track record of driving cross-functional partnerships, integrating AI-driven workflows, and delivering resilient systems that serve massive user bases in fast-paced environments.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "94577",
+      "city": "San Leandro",
+      "countryCode": "US",
+      "region": "CA (San Francisco Bay Area)"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jesusdmedinac",
+        "url": "https://linkedin.com/in/jesusdmedinac"
+      },
+      {
+        "network": "X",
+        "username": "jesusdmedinac",
+        "url": "https://x.com/jesusdmedinac"
+      },
+      {
+        "network": "GitHub",
+        "username": "jesusdmedinac",
+        "url": "https://github.com/jesusdmedinac"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "HansellApp",
+      "position": "Senior Android Engineer",
+      "location_type": "Remote",
+      "location": "Atlanta, GA",
+      "startDate": "2025-01",
+      "endDate": null,
+      "summary": "Lead the technical strategy for an All-in-One Real Estate Management Suite, driving architectural decisions and cross-functional collaboration.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Architected a scalable Android and KMP business logic layer, accelerating cross-platform feature delivery by 34% while maintaining strict native performance budgets.",
+        "Directed engineering teams to implement MVVM architecture using Coroutines and Flow, improving UI state predictability and significantly reducing concurrency-related crashes.",
+        "Engineered robust RESTful API clients with Ktor, implementing secure, low-latency data handling protocols for sensitive real estate documents.",
+        "Optimized CI/CD pipelines, increasing production release frequency by 42% and establishing automated performance regression testing."
+      ],
+      "skills": [
+        "Android SDK",
+        "Kotlin",
+        "Multithreading",
+        "MVVM",
+        "Coroutines",
+        "Flow"
+      ]
+    },
+    {
+      "name": "Academia Desde0",
+      "position": "Senior Mobile Developer & Technical Mentor",
+      "location_type": "Remote",
+      "location": "Remote",
+      "startDate": "2024-02",
+      "endDate": "2024-12",
+      "url": "https://desde0.jesusdmedinac.com",
+      "summary": "Directed curriculum development at a training platform founded to democratize access to high-quality tech education for Spanish-speaking communities.",
+      "highlights": [],
+      "responsibilities": [
+        "Upskilled 50+ developers in modern Android architecture by designing and delivering a curriculum focused on SDK internals, Dependency Injection, and architectural patterns.",
+        "Decreased bug density in student projects by 45% through the implementation of Test-Driven Development (TDD) and structured code reviews.",
+        "Fostered engineering excellence by establishing pair programming methodologies and agile feedback cycles simulating high-scale environments."
+      ],
+      "skills": [
+        "Android",
+        "Kotlin Multiplatform",
+        "TDD",
+        "Mentoring",
+        "Architecture"
+      ]
+    },
+    {
+      "name": "Bubble",
+      "position": "Senior Android Software Consultant",
+      "location_type": "Remote",
+      "location": "Remote",
+      "startDate": "2021-03",
+      "endDate": "2024-02",
+      "summary": "Provided hands-on engineering and strategic leadership across multiple companies, focusing on scalable and maintainable codebases for Android.",
+      "url": "https://bubble.jesusdmedinac.com",
+      "highlights": [],
+      "responsibilities": [
+        "Architected an AI-driven personalization engine, utilizing advanced telemetry and Firebase Remote Config to optimize user workflows and increase engagement by 28%.",
+        "Spearheaded Android codebase modernization, migrating legacy systems to modular Kotlin architectures and reducing technical debt by 31%.",
+        "Optimized background processing and multithreading for a smartphone addiction management app, ensuring low battery consumption and maintaining 99.94% crash-free sessions.",
+        "Mentored cross-functional teams, establishing rigorous code review standards and robust CI/CD automated test suites to accelerate safe release cycles."
+      ],
+      "skills": [
+        "Android SDK",
+        "AI Integration",
+        "Performance Optimization",
+        "Firebase",
+        "CI/CD",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Insulet Corporation",
+      "position": "Senior Mobile Engineer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2019-11",
+      "endDate": "2021-03",
+      "summary": "Spearheaded the development of the VIEW app, an innovative mobile solution empowering caregivers to remotely monitor the health of individuals living with diabetes.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Led the technical implementation of the VIEW app, engineering high-concurrency data processing pipelines for real-time diabetes health monitoring at scale.",
+        "Resolved critical memory leaks and optimized multithreading performance in the Android domain layer, reducing overall memory footprint by 37%.",
+        "Architected low-latency communication modules using Kotlin and Java, ensuring reliable, stateful data synchronization across thousands of active medical devices."
+      ],
+      "skills": [
+        "Android",
+        "Memory Management",
+        "Multithreading",
+        "Kotlin",
+        "Java"
+      ]
+    },
+    {
+      "name": "arkusnexus",
+      "position": "Senior Mobile Developer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2019-04",
+      "endDate": "2019-11",
+      "summary": "Contributed to Rosy (Memory Assistant) and Simplicity (Insurtech) cross-platform applications.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Executed a 100% successful architectural migration strategy from React Native to native Android, ensuring zero feature regression and significantly improved rendering performance.",
+        "Engineered real-time vehicle telematics processing for a cross-platform insurtech application, enabling dynamic insurance pricing and boosting user acquisition."
+      ],
+      "skills": [
+        "Java",
+        "Android SDK",
+        "Architecture",
+        "Cross-platform"
+      ]
+    },
+    {
+      "name": "Compus Sistemas Express",
+      "position": "Software Developer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2014-07",
+      "endDate": "2017-07",
+      "summary": "Spearheaded the digital transformation of enterprise operations by architecting a suite of applications, replacing outdated manual processes and significantly boosting efficiency.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."
+      ],
+      "skills": [
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL",
+        "XML"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "IUT de La Rochelle",
+      "url": "https://www.iut-larochelle.fr/",
+      "area": "Licence Proffessionnelle, Informatique Repartie et Mobile",
+      "studyType": "Bachelor",
+      "startDate": "2017-06-01",
+      "endDate": "2018-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Tecnológica de Tijuana",
+      "url": "https://uttijuana.edu.mx/",
+      "area": "Técnico Superior Universitario, Tecnologías de la información y Comunicación área Sistemas Informáticos",
+      "studyType": "Bachelor",
+      "startDate": "2015-06",
+      "endDate": "2017-06",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Compose Expert",
+      "issuer": "DevExpert.io",
+      "date": "2025-01",
+      "skills": [
+        "Kotlin",
+        "Kotlin Multiplatform",
+        "Compose",
+        "Compose Multiplatform"
+      ]
+    },
+    {
+      "name": "Testing Expert",
+      "issuer": "DevExpert.io",
+      "date": "2023-07",
+      "skills": [
+        "Unit Testing",
+        "Instrumentation Testing",
+        "UI Testing",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin Expert",
+      "issuer": "DevExpert.io",
+      "date": "2022-05",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines",
+        "Kotlin Multiplatform"
+      ]
+    },
+    {
+      "name": "Python Crash Course",
+      "issuer": "ITJ",
+      "date": "2024-09",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Architect Coders",
+      "issuer": "DevExpert.io",
+      "date": "2020-04",
+      "skills": [
+        "Clean Architecture",
+        "SOLID Design Principles",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin para Desarrolladores Android",
+      "issuer": "DevExpert.io",
+      "date": "2019-09",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Android Engineering",
+      "level": "Expert",
+      "keywords": [
+        "Android SDK",
+        "Kotlin",
+        "Java",
+        "Multithreading",
+        "Memory Management",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Architecture & Design",
+      "level": "Advanced",
+      "keywords": [
+        "MVVM",
+        "MVI",
+        "Dependency Injection",
+        "Clean Architecture",
+        "Kotlin Multiplatform (KMP)",
+        "Compose"
+      ]
+    },
+    {
+      "name": "AI & Infrastructure",
+      "level": "Advanced",
+      "keywords": [
+        "AI Integration",
+        "Workflow Optimization",
+        "CI/CD",
+        "Firebase",
+        "Coroutines",
+        "Flow"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "json-to-compose",
+      "isActive": true,
+      "description": "Engineered a high-performance No-Code engine enabling dynamic rendering of native apps across Android, iOS, and Web. Implemented AST parsing and a custom UI tree synchronization layer to bridge configurations with Compose Multiplatform components via KMP.",
+      "highlights": [
+        "Engineered a high-performance No-Code engine for Compose Multiplatform",
+        "Implemented AST parsing and custom UI tree synchronization layer",
+        "Cross-platform support for Android, iOS, Desktop, and WASM"
+      ],
+      "url": "https://composy.jesusdmedinac.com"
+    },
+    {
+      "name": "Desde0 Academy",
+      "isActive": true,
+      "description": "Managed the development lifecycle of multiple cross-platform applications, connecting interns with real-world projects using KMP to ensure rapid delivery.",
+      "highlights": [
+        "KMP-based rapid application development",
+        "Managed cross-functional intern teams",
+        "Delivered free MVPs for startups"
+      ],
+      "url": "https://desde0.jesusdmedinac.com"
+    },
+    {
+      "name": "Bubble",
+      "isActive": true,
+      "description": "Modular smartphone addiction management app built with KMP, integrating AI-driven personalization and real-time screen time tracking.",
+      "highlights": [
+        "KMP Modular Architecture",
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://bubble.jesusdmedinac.com"
+    },
+    {
+      "name": "Empry",
+      "isActive": true,
+      "description": "Your AI co-pilot for building successful startups. Get instant expert guidance on fundraising, legal matters, product development, and growth strategies. No more guessing - make informed decisions.",
+      "highlights": [
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://empry.jesusdmedinac.com"
+    },
+    {
+      "name": "Zora",
+      "isActive": true,
+      "description": "The Future of Auto Parts is Here. Zora connects drivers and yards through conversational AI. Find exact parts in minutes, or sell your inventory automatically.",
+      "highlights": [
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://zora.jesusdmedinac.com"
+    }
+  ]
+}

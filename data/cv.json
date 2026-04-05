@@ -1,0 +1,363 @@
+{
+  "basics": {
+    "name": "Jesús Daniel Medina Cruz",
+    "label": "Kotlin Multiplatform (KMP) Expert | Senior Mobile Software Engineer",
+    "image": "/me_avatar.jpg",
+    "email": "jesus.daniel.medina.cruz@gmail.com",
+    "phone": "+14704061747",
+    "url": "https://jesusdmedinac.com",
+    "summary": "Senior Mobile Engineer with 10 years of experience architecting highly scalable cross-platform systems. Specialized in Kotlin Multiplatform (KMP) to maximize code sharing across Android, iOS, desktop, web, and server environments without sacrificing native performance. Proven track record of leading migrations, modernizing legacy systems, and establishing robust CI/CD pipelines to accelerate delivery cycles in fast-paced startup and enterprise environments.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "94577",
+      "city": "San Leandro",
+      "countryCode": "US",
+      "region": "CA (San Francisco Bay Area)"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jesusdmedinac",
+        "url": "https://linkedin.com/in/jesusdmedinac"
+      },
+      {
+        "network": "X",
+        "username": "jesusdmedinac",
+        "url": "https://x.com/jesusdmedinac"
+      },
+      {
+        "network": "GitHub",
+        "username": "jesusdmedinac",
+        "url": "https://github.com/jesusdmedinac"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "HansellApp",
+      "position": "Senior Kotlin Multiplatform Engineer",
+      "location_type": "Remote",
+      "location": "Atlanta, GA",
+      "startDate": "2025-01",
+      "endDate": null,
+      "summary": "Lead the cross-platform technical strategy for an All-in-One Real Estate Management Suite designed to simplify property management and enhance tenant communication.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Reduced cross-platform feature development time by architecting a shared business logic layer using Kotlin Multiplatform, ensuring 100% feature parity.",
+        "Improved UI state predictability and code maintainability by implementing MVVM architecture with shared Kotlin ViewModels, Coroutines, and Flow.",
+        "Enhanced data security for sensitive real estate documents by integrating shared RESTful API clients using Ktor for multi-platform consumption.",
+        "Accelerated production release frequency by automating cross-platform build and deployment workflows via CI/CD pipelines."
+      ],
+      "skills": [
+        "Kotlin Multiplatform",
+        "Ktor",
+        "MVVM",
+        "Coroutines",
+        "Flow",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Academia Desde0",
+      "position": "Senior Mobile Developer & Instructor",
+      "location_type": "Remote",
+      "location": "Remote",
+      "startDate": "2024-02",
+      "endDate": "2024-12",
+      "url": "https://desde0.jesusdmedinac.com",
+      "summary": "Directed curriculum development at a training platform founded to democratize access to high-quality tech education for Spanish-speaking communities.",
+      "highlights": [],
+      "responsibilities": [
+        "Upskilled developers in modern mobile architecture by designing and delivering a curriculum focused on KMP and modern architectural patterns.",
+        "Decreased bug density in student projects through the implementation of project-based learning and Test-Driven Development (TDD).",
+        "Improved code quality and team collaboration by establishing pair programming, structured code reviews, and agile feedback cycles."
+      ],
+      "skills": [
+        "Mobile Development",
+        "Kotlin Multiplatform",
+        "TDD",
+        "Mentoring"
+      ]
+    },
+    {
+      "name": "Bubble",
+      "position": "Mobile Software Consultant (KMP Focus)",
+      "location_type": "Remote",
+      "location": "Remote",
+      "startDate": "2021-03",
+      "endDate": "2024-02",
+      "summary": "Provided hands-on engineering and strategic guidance across multiple companies, focusing on scalable and maintainable codebases for Android and iOS.",
+      "url": "https://bubble.jesusdmedinac.com",
+      "highlights": [],
+      "responsibilities": [
+        "Increased development velocity by leading a codebase modernization initiative, migrating legacy implementations to modular, shared Kotlin packages.",
+        "Optimized long-term modular scalability for a smartphone addiction management app, resulting in a reduction in technical debt.",
+        "Maintained 99.9% crash-free sessions while accelerating release cycles through the establishment of robust CI/CD pipelines.",
+        "Increased user engagement by integrating AI-driven personalization and dynamic user experiences via Firebase Remote Config."
+      ],
+      "skills": [
+        "Android",
+        "iOS",
+        "Kotlin Multiplatform",
+        "Firebase",
+        "CI/CD",
+        "Kotlin"
+      ]
+    },
+    {
+      "name": "Insulet Corporation",
+      "position": "Senior Mobile Engineer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2019-11",
+      "endDate": "2021-03",
+      "summary": "Spearheaded the development of the VIEW app, an innovative mobile solution empowering caregivers to remotely monitor the health of individuals living with diabetes.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Delivered real-time health monitoring for individuals with diabetes by architecting the VIEW app with high-concurrency data processing and low-latency communication.",
+        "Reduced memory footprint and improved app responsiveness by implementing memory-optimized domain layers and modular architecture.",
+        "Streamlined the development of shared platform services, increasing code reuse between Android and iOS using Kotlin and Java."
+      ],
+      "skills": [
+        "Android",
+        "iOS",
+        "Kotlin Multiplatform",
+        "Kotlin",
+        "Java"
+      ]
+    },
+    {
+      "name": "arkusnexus",
+      "position": "Senior Mobile Developer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2019-04",
+      "endDate": "2019-11",
+      "summary": "Contributed to Rosy (Memory Assistant) and Simplicity (Insurtech) cross-platform applications.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Executed a 100% successful migration strategy from React Native to native platforms for the Rosy memory assistant, ensuring zero feature regression.",
+        "Increased user acquisition by developing a cross-platform insurtech application with real-time vehicle telematics for dynamic insurance pricing."
+      ],
+      "skills": [
+        "Java",
+        "Android",
+        "React Native",
+        "Cross-platform"
+      ]
+    },
+    {
+      "name": "Compus Sistemas Express",
+      "position": "Software Developer",
+      "location_type": "On site",
+      "location": "Tijuana, Baja California, Mexico",
+      "startDate": "2014-07",
+      "endDate": "2017-07",
+      "summary": "Spearheaded the digital transformation of enterprise operations by architecting a suite of applications, replacing outdated manual processes and significantly boosting efficiency.",
+      "url": "",
+      "highlights": [],
+      "responsibilities": [
+        "Boosted development velocity for internal projects by creating reusable SDKs and service clients to standardize data access."
+      ],
+      "skills": [
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL",
+        "XML",
+        "DBase"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "IUT de La Rochelle",
+      "url": "https://www.iut-larochelle.fr/",
+      "area": "Licence Proffessionnelle, Informatique Repartie et Mobile",
+      "studyType": "Bachelor",
+      "startDate": "2017-06-01",
+      "endDate": "2018-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Tecnológica de Tijuana",
+      "url": "https://uttijuana.edu.mx/",
+      "area": "Técnico Superior Universitario, Tecnologías de la información y Comunicación área Sistemas Informáticos",
+      "studyType": "Bachelor",
+      "startDate": "2015-06",
+      "endDate": "2017-06",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Compose Expert",
+      "issuer": "DevExpert.io",
+      "date": "2025-01",
+      "skills": [
+        "Kotlin",
+        "Kotlin Multiplatform",
+        "Compose",
+        "Compose Multiplatform"
+      ]
+    },
+    {
+      "name": "Testing Expert",
+      "issuer": "DevExpert.io",
+      "date": "2023-07",
+      "skills": [
+        "Unit Testing",
+        "Instrumentation Testing",
+        "UI Testing",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin Expert",
+      "issuer": "DevExpert.io",
+      "date": "2022-05",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines",
+        "Kotlin Multiplatform"
+      ]
+    },
+    {
+      "name": "Python Crash Course",
+      "issuer": "ITJ",
+      "date": "2024-09",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Architect Coders",
+      "issuer": "DevExpert.io",
+      "date": "2020-04",
+      "skills": [
+        "Clean Architecture",
+        "SOLID Design Principles",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin para Desarrolladores Android",
+      "issuer": "DevExpert.io",
+      "date": "2019-09",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Android",
+      "level": "Advanced",
+      "keywords": [
+        "Kotlin",
+        "Kotlin Multiplatform",
+        "Compose",
+        "Compose Multiplatform",
+        "Android"
+      ]
+    },
+    {
+      "name": "iOS",
+      "level": "Advanced",
+      "keywords": [
+        "Swift",
+        "SwiftUI",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Kotlin Multiplatform",
+      "level": "Advanced",
+      "keywords": [
+        "Kotlin Multiplatform",
+        "Kotlin",
+        "Compose Multiplatform",
+        "Compose"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "json-to-compose",
+      "isActive": true,
+      "description": "Engineered a high-performance No-Code engine enabling dynamic rendering of native apps across Android, iOS, and Web. Implemented AST parsing and a custom UI tree synchronization layer to bridge configurations with Compose Multiplatform components via KMP.",
+      "highlights": [
+        "Engineered a high-performance No-Code engine for Compose Multiplatform",
+        "Implemented AST parsing and custom UI tree synchronization layer",
+        "Cross-platform support for Android, iOS, Desktop, and WASM"
+      ],
+      "url": "https://composy.jesusdmedinac.com"
+    },
+    {
+      "name": "Desde0 Academy",
+      "isActive": true,
+      "description": "Managed the development lifecycle of multiple cross-platform applications, connecting interns with real-world projects using KMP to ensure rapid delivery.",
+      "highlights": [
+        "KMP-based rapid application development",
+        "Managed cross-functional intern teams",
+        "Delivered free MVPs for startups"
+      ],
+      "url": "https://desde0.jesusdmedinac.com"
+    },
+    {
+      "name": "Bubble",
+      "isActive": true,
+      "description": "Modular smartphone addiction management app built with KMP, integrating AI-driven personalization and real-time screen time tracking.",
+      "highlights": [
+        "KMP Modular Architecture",
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://bubble.jesusdmedinac.com"
+    },
+    {
+      "name": "Empry",
+      "isActive": true,
+      "description": "Your AI co-pilot for building successful startups. Get instant expert guidance on fundraising, legal matters, product development, and growth strategies. No more guessing - make informed decisions.",
+      "highlights": [
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://empry.jesusdmedinac.com"
+    },
+    {
+      "name": "Zora",
+      "isActive": true,
+      "description": "The Future of Auto Parts is Here. Zora connects drivers and yards through conversational AI. Find exact parts in minutes, or sell your inventory automatically.",
+      "highlights": [
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://zora.jesusdmedinac.com"
+    }
+  ]
+}
