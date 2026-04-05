@@ -13,12 +13,12 @@
 - [x] Scenario: Render social links in Footer component
 
 ## Feature: Rendering the Hero and Profile Summary
-- [ ] Scenario: Render basic profile information
-- [ ] Scenario: Render contact and social links
+- [x] Scenario: Render basic profile information
+- [x] Scenario: Render contact and social links
 
 ## Feature: Rendering Work Experience
-- [ ] Scenario: Render a list of roles
-- [ ] Scenario: Render responsibilities and skills per role
+- [x] Scenario: Render a list of roles
+- [x] Scenario: Render responsibilities and skills per role
 
 ## Feature: Rendering Technical Skills and Expertise
 - [ ] Scenario: Render skill categories

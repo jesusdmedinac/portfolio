@@ -17,6 +17,7 @@ import BlogPreview from '../components/BlogPreview.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 import { kmpConfiguration } from '../config';
+import cvData from '../../data/cv-meta.json';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -50,14 +51,24 @@ const isLiveStreamActive = kmpConfiguration.isLiveStreamEnabled;
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jesús Medina"
-					tagline="I am a Kotlin Mobile Engineer expert in Kotlin and Compose"
+					title={`Hello, my name is ${cvData.basics.name}`}
+					tagline={cvData.basics.label}
 					align="start"
 				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="teacher" size="1.33em" /> Teacher</Pill>
-						<Pill><Icon icon="video" size="1.33em" /> Content Creator</Pill>
+					<div class="summary">
+						<p>{cvData.basics.summary}</p>
+					</div>
+					<div class="socials">
+						{
+							cvData.basics.profiles.map((profile) => (
+								<a href={profile.url} target="_blank" title={`${profile.network} profile`}>
+									<Icon icon={`${profile.network.toLowerCase()}-logo` as any} size="1.5rem" />
+								</a>
+							))
+						}
+						<a href={`mailto:${cvData.basics.email}`} title="Email Contact">
+							<Icon icon="paper-plane-tilt" size="1.5rem" />
+						</a>
 					</div>
 				</Hero>
 
@@ -172,7 +183,7 @@ const isLiveStreamActive = kmpConfiguration.isLiveStreamEnabled;
 		gap: 2rem;
 	}
 
-	.roles {
+	.summary {
 		display: none;
 	}
 
@@ -192,10 +203,29 @@ const isLiveStreamActive = kmpConfiguration.isLiveStreamEnabled;
 			gap: 3.75rem;
 		}
 
-		.roles {
-			margin-top: 0.5rem;
+		.summary {
+			margin-top: 1rem;
+			display: block;
+			font-size: var(--text-md);
+			color: var(--gray-200);
+			max-width: 60ch;
+		}
+
+		.socials {
+			margin-top: 1rem;
 			display: flex;
-			gap: 0.5rem;
+			gap: 1rem;
+			align-items: center;
+		}
+
+		.socials a {
+			color: var(--gray-200);
+			text-decoration: none;
+			transition: color var(--theme-transition);
+		}
+
+		.socials a:hover {
+			color: var(--accent-regular);
 		}
 
 		.hero img {
