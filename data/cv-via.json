@@ -42,7 +42,7 @@
       "startDate": "2025-01",
       "endDate": null,
       "summary": "Lead the mobile technical strategy and core client architecture for a multi-tenant mobile ecosystem.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Reduced cross-platform feature development time by 34% by architecting a shared business logic layer using Kotlin Multiplatform (KMP), ensuring 100% feature parity.",
@@ -74,7 +74,7 @@
         "Improved code quality and team collaboration by establishing pair programming, structured code reviews, and agile feedback cycles."
       ],
       "skills": [
-        "Android",
+        "Android SDK",
         "Kotlin",
         "TDD",
         "Mentoring",
@@ -117,7 +117,7 @@
       "startDate": "2019-11",
       "endDate": "2021-03",
       "summary": "Spearheaded the development of the VIEW app, empowering caregivers to remotely monitor health telemetry in real-time.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Architected high-concurrency, low-latency data processing pipelines for real-time health monitoring, ensuring extreme reliability in high-trust environments.",
@@ -140,7 +140,7 @@
       "startDate": "2019-04",
       "endDate": "2019-11",
       "summary": "Contributed to cross-platform applications including memory assistants and real-time vehicle telematics for mobility solutions.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Engineered real-time vehicle telematics processing for an insurtech/mobility application, integrating Location Services and location tracking to enable dynamic pricing and boost acquisition.",
@@ -162,7 +162,7 @@
       "startDate": "2014-07",
       "endDate": "2017-07",
       "summary": "Spearheaded digital transformation of enterprise operations by architecting a suite of mobile and web applications.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."
@@ -182,8 +182,8 @@
       "url": "https://www.iut-larochelle.fr/",
       "area": "Licence Professionnelle, Informatique Répartie et Mobile",
       "studyType": "Bachelor",
-      "startDate": "2017-06-01",
-      "endDate": "2018-06-01",
+      "startDate": "2017-06",
+      "endDate": "2018-06",
       "score": "",
       "courses": []
     },
