@@ -42,7 +42,7 @@
       "startDate": "2025-01",
       "endDate": null,
       "summary": "Lead mobile engineering and client UI architecture for a multi-tenant mobile ecosystem.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Improved UI state predictability, rendering performance, and user retention by implementing MVVM architecture with Kotlin Coroutines, Flow, and Jetpack Compose.",
@@ -112,12 +112,12 @@
     {
       "name": "Insulet Corporation",
       "position": "Senior Mobile Engineer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-11",
       "endDate": "2021-03",
       "summary": "Spearheaded the development of the VIEW app, empowering caregivers to remotely monitor health telemetry in real-time.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Architected high-concurrency, low-latency data processing pipelines for real-time health monitoring, ensuring extreme reliability in high-trust environments.",
@@ -135,12 +135,12 @@
     {
       "name": "Arkusnexus",
       "position": "Senior Mobile Developer (Mobility & Telematics Focus)",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-04",
       "endDate": "2019-11",
       "summary": "Contributed to cross-platform applications including memory assistants and real-time vehicle telematics for mobility solutions.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Engineered real-time vehicle telematics processing for an insurtech/mobility application, integrating Location Services and location tracking to enable dynamic pricing and boost user acquisition.",
@@ -157,12 +157,12 @@
     {
       "name": "Compus Sistemas Express",
       "position": "Software Developer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2014-07",
       "endDate": "2017-07",
       "summary": "Spearheaded digital transformation of enterprise operations by architecting a suite of mobile and web applications.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."

@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jesús Daniel Medina Cruz",
-    "label": "Staff Android Engineer | Mobility, Real-Time Systems & Client Infrastructure",
+    "label": "Staff Android Engineer | Luxury Experiences & Client Infrastructure",
     "image": "/me_avatar.jpg",
     "email": "jesus.daniel.medina.cruz@gmail.com",
     "phone": "+14704061747",
     "url": "https://jesusdmedinac.com",
-    "summary": "Staff Android & Mobile Engineer with 10 years of experience building high-scale client platforms, real-time mobility solutions, and location-based services. Specialist in Kotlin, Jetpack Compose, Kotlin Multiplatform (KMP), and Android SDK internals. Proven track record architecting vehicle telematics pipelines, custom UI rendering engines (json-to-compose), and modular client infrastructure that maximizes developer velocity and app performance.",
+    "summary": "Staff Android & Mobile Engineer with 10 years of experience building high-scale client platforms, real-time mobility solutions, and premium user experiences. Specialist in building high-end, luxury mobile interfaces (Black/Black SUV ride modes), Kotlin Multiplatform (KMP), and Android SDK internals. Proven track record architecting vehicle telematics pipelines, custom UI rendering engines (json-to-compose), and modular client infrastructure that maximizes developer velocity and app performance.",
     "theme": "default",
     "location": {
       "address": "",
@@ -42,7 +42,7 @@
       "startDate": "2025-01",
       "endDate": null,
       "summary": "Lead the cross-platform technical strategy and foundational client infrastructure for a multi-tenant mobile ecosystem.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Reduced cross-platform feature development time by 34% by architecting a shared business logic layer using Kotlin Multiplatform (KMP), ensuring 100% feature parity.",
@@ -112,12 +112,12 @@
     {
       "name": "Insulet Corporation",
       "position": "Senior Mobile Engineer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-11",
       "endDate": "2021-03",
       "summary": "Spearheaded the development of the VIEW app, empowering caregivers to remotely monitor health telemetry in real-time.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Architected high-concurrency, low-latency data processing pipelines for real-time health monitoring, ensuring extreme reliability in high-trust environments.",
@@ -135,12 +135,12 @@
     {
       "name": "Arkusnexus",
       "position": "Senior Mobile Developer (Mobility & Telematics Focus)",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-04",
       "endDate": "2019-11",
       "summary": "Contributed to cross-platform applications including memory assistants and real-time vehicle telematics for mobility solutions.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Engineered real-time vehicle telematics processing for an insurtech/mobility application, integrating Location Services and location tracking to enable dynamic pricing and boost acquisition.",
@@ -157,12 +157,12 @@
     {
       "name": "Compus Sistemas Express",
       "position": "Software Developer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2014-07",
       "endDate": "2017-07",
       "summary": "Spearheaded digital transformation of enterprise operations by architecting a suite of mobile and web applications.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."
@@ -253,7 +253,7 @@
   ],
   "skills": [
     {
-      "name": "Android Infrastructure",
+      "name": "Luxury & Client Infrastructure",
       "level": "Master",
       "keywords": [
         "Android SDK",
