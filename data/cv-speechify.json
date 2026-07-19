@@ -197,7 +197,67 @@
       "courses": []
     }
   ],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Compose Expert",
+      "issuer": "DevExpert.io",
+      "date": "2025-01",
+      "skills": [
+        "Kotlin",
+        "Kotlin Multiplatform",
+        "Compose",
+        "Compose Multiplatform"
+      ]
+    },
+    {
+      "name": "Testing Expert",
+      "issuer": "DevExpert.io",
+      "date": "2023-07",
+      "skills": [
+        "Unit Testing",
+        "Instrumentation Testing",
+        "UI Testing",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin Expert",
+      "issuer": "DevExpert.io",
+      "date": "2022-05",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines",
+        "Kotlin Multiplatform"
+      ]
+    },
+    {
+      "name": "Python Crash Course",
+      "issuer": "ITJ",
+      "date": "2024-09",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Architect Coders",
+      "issuer": "DevExpert.io",
+      "date": "2020-04",
+      "skills": [
+        "Clean Architecture",
+        "SOLID Design Principles",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Kotlin para Desarrolladores Android",
+      "issuer": "DevExpert.io",
+      "date": "2019-09",
+      "skills": [
+        "Kotlin",
+        "Kotlin Coroutines"
+      ]
+    }
+  ],
   "skills": [
     {
       "name": "Kotlin Multiplatform (KMP)",
