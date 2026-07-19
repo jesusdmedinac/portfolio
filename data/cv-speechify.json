@@ -263,5 +263,59 @@
   ],
   "interests": [],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "json-to-compose",
+      "isActive": true,
+      "description": "Engineered a high-performance No-Code engine enabling dynamic rendering of native apps across Android, iOS, and Web. Implemented AST parsing and a custom UI tree synchronization layer to bridge configurations with Compose Multiplatform components via KMP.",
+      "highlights": [
+        "Engineered a high-performance No-Code engine for Compose Multiplatform",
+        "Implemented AST parsing and custom UI tree synchronization layer",
+        "Cross-platform support for Android, iOS, Desktop, and WASM"
+      ],
+      "url": "https://composy.jesusdmedinac.com"
+    },
+    {
+      "name": "Desde0 Academy",
+      "isActive": true,
+      "description": "Managed the development lifecycle of multiple cross-platform applications, connecting interns with real-world projects using KMP to ensure rapid delivery.",
+      "highlights": [
+        "KMP-based rapid application development",
+        "Managed cross-functional intern teams",
+        "Delivered free MVPs for startups"
+      ],
+      "url": "https://desde0.jesusdmedinac.com"
+    },
+    {
+      "name": "Bubble",
+      "isActive": true,
+      "description": "Modular smartphone addiction management app built with KMP, integrating AI-driven personalization and real-time screen time tracking.",
+      "highlights": [
+        "KMP Modular Architecture",
+        "AI-driven personalization",
+        "Real-time data synchronization"
+      ],
+      "url": "https://bubble.jesusdmedinac.com"
+    },
+    {
+      "name": "Empry",
+      "isActive": true,
+      "description": "Your AI co-pilot for building successful startups. Get instant expert guidance on fundraising, legal matters, product development, and growth strategies. No more guessing - make informed decisions.",
+      "highlights": [
+        "AI-driven startup advisory engine",
+        "Automated fundraising and legal guidance tools"
+      ],
+      "url": "https://empry.jesusdmedinac.com"
+    },
+    {
+      "name": "Zora",
+      "isActive": true,
+      "description": "The Future of Auto Parts is Here. Zora connects drivers and yards through conversational AI. Find exact parts in minutes, or sell your inventory automatically.",
+      "highlights": [
+        "Conversational AI for auto parts discovery",
+        "Automated inventory management for salvage yards"
+      ],
+      "url": "https://zora.jesusdmedinac.com"
+    }
+  ]
 }
