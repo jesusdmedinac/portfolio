@@ -42,7 +42,7 @@
       "startDate": "2025-01",
       "endDate": null,
       "summary": "Lead the technical strategy for an All-in-One Real Estate Management Suite, driving architectural decisions and cross-functional collaboration.",
-      "url": null,
+      "url": "",
       "highlights": [],
       "responsibilities": [
         "Architected a scalable Android and KMP business logic layer, accelerating cross-platform feature delivery by 34% while maintaining strict native performance budgets.",
@@ -75,7 +75,7 @@
         "Fostered engineering excellence by establishing pair programming methodologies and agile feedback cycles simulating high-scale environments."
       ],
       "skills": [
-        "Android SDK",
+        "Android",
         "Kotlin Multiplatform",
         "TDD",
         "Mentoring",
@@ -110,12 +110,12 @@
     {
       "name": "Insulet Corporation",
       "position": "Senior Mobile Engineer",
-      "location_type": "On-site",
+      "location_type": "On site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-11",
       "endDate": "2021-03",
       "summary": "Spearheaded the development of the VIEW app, an innovative mobile solution empowering caregivers to remotely monitor the health of individuals living with diabetes.",
-      "url": null,
+      "url": "",
       "highlights": [],
       "responsibilities": [
         "Led the technical implementation of the VIEW app, engineering high-concurrency data processing pipelines for real-time diabetes health monitoring at scale.",
@@ -123,7 +123,7 @@
         "Architected low-latency communication modules using Kotlin and Java, ensuring reliable, stateful data synchronization across thousands of active medical devices."
       ],
       "skills": [
-        "Android SDK",
+        "Android",
         "Memory Management",
         "Multithreading",
         "Kotlin",
@@ -131,14 +131,14 @@
       ]
     },
     {
-      "name": "ArkusNexus",
+      "name": "arkusnexus",
       "position": "Senior Mobile Developer",
-      "location_type": "On-site",
+      "location_type": "On site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-04",
       "endDate": "2019-11",
       "summary": "Contributed to Rosy (Memory Assistant) and Simplicity (Insurtech) cross-platform applications.",
-      "url": null,
+      "url": "",
       "highlights": [],
       "responsibilities": [
         "Executed a 100% successful architectural migration strategy from React Native to native Android, ensuring zero feature regression and significantly improved rendering performance.",
@@ -154,18 +154,18 @@
     {
       "name": "Compus Sistemas Express",
       "position": "Software Developer",
-      "location_type": "On-site",
+      "location_type": "On site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2014-07",
       "endDate": "2017-07",
       "summary": "Spearheaded the digital transformation of enterprise operations by architecting a suite of applications, replacing outdated manual processes and significantly boosting efficiency.",
-      "url": null,
+      "url": "",
       "highlights": [],
       "responsibilities": [
         "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."
       ],
       "skills": [
-        "Android SDK",
+        "Android",
         "Java",
         "PHP",
         "MySQL",
@@ -180,8 +180,8 @@
       "url": "https://www.iut-larochelle.fr/",
       "area": "Licence Professionnelle, Informatique Répartie et Mobile",
       "studyType": "Bachelor",
-      "startDate": "2017-06",
-      "endDate": "2018-06",
+      "startDate": "2017-06-01",
+      "endDate": "2018-06-01",
       "score": "",
       "courses": []
     },
