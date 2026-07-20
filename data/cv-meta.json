@@ -178,7 +178,7 @@
     {
       "institution": "IUT de La Rochelle",
       "url": "https://www.iut-larochelle.fr/",
-      "area": "Licence Proffessionnelle, Informatique Repartie et Mobile",
+      "area": "Licence Professionnelle, Informatique Répartie et Mobile",
       "studyType": "Bachelor",
       "startDate": "2017-06-01",
       "endDate": "2018-06-01",
@@ -350,8 +350,8 @@
       "isActive": true,
       "description": "Your AI co-pilot for building successful startups. Get instant expert guidance on fundraising, legal matters, product development, and growth strategies. No more guessing - make informed decisions.",
       "highlights": [
-        "AI-driven personalization",
-        "Real-time data synchronization"
+        "AI-driven startup advisory engine",
+        "Automated fundraising and legal guidance tools"
       ],
       "url": "https://empry.jesusdmedinac.com"
     },
@@ -360,8 +360,8 @@
       "isActive": true,
       "description": "The Future of Auto Parts is Here. Zora connects drivers and yards through conversational AI. Find exact parts in minutes, or sell your inventory automatically.",
       "highlights": [
-        "AI-driven personalization",
-        "Real-time data synchronization"
+        "Conversational AI for auto parts discovery",
+        "Automated inventory management for salvage yards"
       ],
       "url": "https://zora.jesusdmedinac.com"
     }
