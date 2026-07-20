@@ -42,7 +42,7 @@
       "startDate": "2025-01",
       "endDate": null,
       "summary": "Lead the technical strategy for an All-in-One Real Estate Management Suite, driving architectural decisions and cross-functional collaboration.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Architected a scalable Android and KMP business logic layer, accelerating cross-platform feature delivery by 34% while maintaining strict native performance budgets.",
@@ -75,7 +75,7 @@
         "Fostered engineering excellence by establishing pair programming methodologies and agile feedback cycles simulating high-scale environments."
       ],
       "skills": [
-        "Android",
+        "Android SDK",
         "Kotlin Multiplatform",
         "TDD",
         "Mentoring",
@@ -110,12 +110,12 @@
     {
       "name": "Insulet Corporation",
       "position": "Senior Mobile Engineer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-11",
       "endDate": "2021-03",
       "summary": "Spearheaded the development of the VIEW app, an innovative mobile solution empowering caregivers to remotely monitor the health of individuals living with diabetes.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Led the technical implementation of the VIEW app, engineering high-concurrency data processing pipelines for real-time diabetes health monitoring at scale.",
@@ -123,7 +123,7 @@
         "Architected low-latency communication modules using Kotlin and Java, ensuring reliable, stateful data synchronization across thousands of active medical devices."
       ],
       "skills": [
-        "Android",
+        "Android SDK",
         "Memory Management",
         "Multithreading",
         "Kotlin",
@@ -131,14 +131,14 @@
       ]
     },
     {
-      "name": "arkusnexus",
+      "name": "ArkusNexus",
       "position": "Senior Mobile Developer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2019-04",
       "endDate": "2019-11",
       "summary": "Contributed to Rosy (Memory Assistant) and Simplicity (Insurtech) cross-platform applications.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Executed a 100% successful architectural migration strategy from React Native to native Android, ensuring zero feature regression and significantly improved rendering performance.",
@@ -154,18 +154,18 @@
     {
       "name": "Compus Sistemas Express",
       "position": "Software Developer",
-      "location_type": "On site",
+      "location_type": "On-site",
       "location": "Tijuana, Baja California, Mexico",
       "startDate": "2014-07",
       "endDate": "2017-07",
       "summary": "Spearheaded the digital transformation of enterprise operations by architecting a suite of applications, replacing outdated manual processes and significantly boosting efficiency.",
-      "url": "",
+      "url": null,
       "highlights": [],
       "responsibilities": [
         "Boosted development velocity by 24% for internal projects by creating reusable Android SDKs and service clients to standardize data access."
       ],
       "skills": [
-        "Android",
+        "Android SDK",
         "Java",
         "PHP",
         "MySQL",
@@ -178,10 +178,10 @@
     {
       "institution": "IUT de La Rochelle",
       "url": "https://www.iut-larochelle.fr/",
-      "area": "Licence Proffessionnelle, Informatique Repartie et Mobile",
+      "area": "Licence Professionnelle, Informatique Répartie et Mobile",
       "studyType": "Bachelor",
-      "startDate": "2017-06-01",
-      "endDate": "2018-06-01",
+      "startDate": "2017-06",
+      "endDate": "2018-06",
       "score": "",
       "courses": []
     },
@@ -350,8 +350,8 @@
       "isActive": true,
       "description": "Your AI co-pilot for building successful startups. Get instant expert guidance on fundraising, legal matters, product development, and growth strategies. No more guessing - make informed decisions.",
       "highlights": [
-        "AI-driven personalization",
-        "Real-time data synchronization"
+        "AI-driven startup advisory engine",
+        "Automated fundraising and legal guidance tools"
       ],
       "url": "https://empry.jesusdmedinac.com"
     },
@@ -360,8 +360,8 @@
       "isActive": true,
       "description": "The Future of Auto Parts is Here. Zora connects drivers and yards through conversational AI. Find exact parts in minutes, or sell your inventory automatically.",
       "highlights": [
-        "AI-driven personalization",
-        "Real-time data synchronization"
+        "Conversational AI for auto parts discovery",
+        "Automated inventory management for salvage yards"
       ],
       "url": "https://zora.jesusdmedinac.com"
     }
